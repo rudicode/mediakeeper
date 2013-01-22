@@ -1,6 +1,6 @@
 # Mediakeeper
 
-TODO: Write a gem description
+Automated media retrival from multiple devices, such as phones tablets or cameras.
 
 ## Installation
 
