@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
+require 'mediakeeper'
 require 'optparse'
-require 'photobone'
 
 begin
   options = {}
 
   optparse = OptionParser.new do|opt|
-    opt.banner = "photobone version: #{ Photobone::VERSION }\n\nUsage: photobone [options] file1 file2 ..."
+    opt.banner = "mediakeeper version: #{ Mediakeeper::VERSION }\n\nUsage: mediakeeper [options] file1 file2 ..."
 
     opt.on( '-h', '--help', 'Display help screen' ) do
       puts opt
@@ -15,7 +15,7 @@ begin
     end
 
     opt.on( '-v', '--version', 'Display version information' ) do
-      puts "photobone, version: #{ Photobone::VERSION }\n"
+      puts "mediakeeper, version: #{ Mediakeeper::VERSION }\n"
       exit 1
     end
   end
@@ -27,7 +27,7 @@ begin
     exit 1
   end
 
-  Photobone.start ARGV, options
+  Mediakeeper.start ARGV, options
 
 rescue OptionParser::InvalidOption => e
   puts e

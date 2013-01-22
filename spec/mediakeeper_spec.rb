@@ -1,6 +1,6 @@
-require File.expand_path('../../lib/photobone', __FILE__)
+require File.expand_path('../../lib/mediakeeper', __FILE__)
 
-describe Photobone do
+describe Mediakeeper do
   before :each do
   end
 
