@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in photobone.gemspec
+# Specify your gem's dependencies in mediakeeper.gemspec
 gemspec
 
 group :development do
