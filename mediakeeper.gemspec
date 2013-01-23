@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Mediakeeper::VERSION
   gem.authors       = ["Rudi Luzar"]
   gem.email         = ["rudi@rudicode.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "command line tool to automate media retrival from multiple devices, such as phones tablets or cameras."
+  gem.summary       = "command line tool to automate media retrival from multiple devices, such as phones tablets or cameras."
+  gem.homepage      = "https://github.com/rudicode/mediakeeper"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
